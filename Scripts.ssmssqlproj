@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="v04c6b:POST\kunabalasink">
+          <Created>2015-01-29T15:32:04.1244192+01:00</Created>
+          <Type>SQL</Type>
+          <Server>v04c6b</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="V051J9:POST\kunabalasink">
+          <Created>2015-10-15T09:45:52.700078+02:00</Created>
+          <Type>SQL</Type>
+          <Server>V051J9</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_Poststandard_env.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_Poststandard_env.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_USP_SET_DBOWNER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_USP_SET_DBOWNER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_USP_BACKUP_TLOG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_USP_BACKUP_TLOG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_USP_BACKUP_FULL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_USP_BACKUP_FULL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_USP_BACKUP_FULL_OLD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_USP_BACKUP_FULL_OLD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_USP_REBUILD_INDEX.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_USP_REBUILD_INDEX.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_USP_INDEX_REORGANIZE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_USP_INDEX_REORGANIZE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_USP_CHECKDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_USP_CHECKDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_USP_DELETE_LOGS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>08_USP_DELETE_LOGS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_USP_REFRESH_STATISTICS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_USP_REFRESH_STATISTICS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_USP_CREATE_DATABASE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_USP_CREATE_DATABASE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_USP_WRITE_STRING_TO_FILE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_USP_WRITE_STRING_TO_FILE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_USP_INSEVENT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12_USP_INSEVENT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_USP_GET_CMDB_INFOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13_USP_GET_CMDB_INFOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_USP_LOGON_ERRORS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14_USP_LOGON_ERRORS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_USP_RESTORE_DATABASE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_USP_RESTORE_DATABASE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_USP_COLLECT_SERVERDATA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_USP_COLLECT_SERVERDATA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_USP_GET_LOGINS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_USP_GET_LOGINS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_USP_GET_LONGINDEXNAME.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18_USP_GET_LONGINDEXNAME.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_USP_ADD_UPDATE_EXTPROP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19_USP_ADD_UPDATE_EXTPROP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_USP_FAILED_JOBS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_USP_FAILED_JOBS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="21_USP_DATAGROWTH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>21_USP_DATAGROWTH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="22_USP_CONFIG_TRACKER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>22_USP_CONFIG_TRACKER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="29_SYS_JOBS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>29_SYS_JOBS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30_Poststand_updenv.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>30_Poststand_updenv.sql</FullPath>
+        </FileNode>
+        <FileNode Name="31_Update_SYS_Jobs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>31_Update_SYS_Jobs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="32_AlterTempDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:v04c6b:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>v04c6b</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>32_AlterTempDB.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
